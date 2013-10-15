@@ -1,11 +1,13 @@
 Summary:	Greybird theme
 Name:		shimmer-project-greybird
-Version:	1.2.2
-Release:	2
+Version:	1.2.3
+Release:	1
 License:	GPL v2 and Attribution-ShareAlike 3.0 Unported
 Group:		X11/Themes
-Source0:	https://github.com/shimmerproject/Greybird/archive/v%{version}.tar.gz
-# Source0-md5:	e731eb53ff430e04cebd7948a2d10b1f
+#Source0:	https://github.com/shimmerproject/Greybird/archive/v%{version}.tar.gz
+Source0:	https://github.com/shimmerproject/Greybird/archive/master.zip
+# Source0-md5:	7032eb93e03225133c1986f7086c9882
+BuildRequires:	automake
 URL:		http://shimmerproject.org/project/greybird/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -29,7 +31,6 @@ Greybird theme - GTK+ variant.
 Summary:	Greybird GTK+3 theme
 Group:		Themes
 Requires:	shimmer-project-greybird = %{version}-%{release}
-Requires:	gtk+3-theme-engine-unico
 
 %description -n gtk+3-theme-greybird
 Greybird theme - GTK+3 variant.
@@ -62,7 +63,8 @@ Requires:	xfce4-notifyd
 Greybird theme for xfce4-notifyd notification daemon.
 
 %prep
-%setup -qn Greybird-%{version}
+#%setup -qn Greybird-%{version}
+%setup -qn Greybird-master
 
 %build
 
