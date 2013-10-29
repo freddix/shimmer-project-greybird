@@ -1,7 +1,7 @@
 Summary:	Greybird theme
 Name:		shimmer-project-greybird
 Version:	1.2.3
-Release:	1
+Release:	2
 License:	GPL v2 and Attribution-ShareAlike 3.0 Unported
 Group:		X11/Themes
 #Source0:	https://github.com/shimmerproject/Greybird/archive/v%{version}.tar.gz
@@ -39,7 +39,6 @@ Greybird theme - GTK+3 variant.
 Summary:	Greybird Metacity theme
 Group:		Themes
 Requires:	shimmer-project-greybird = %{version}-%{release}
-Requires:	metacity
 
 %description -n metacity-theme-greybird
 Greybird theme for Metacity window manager.
