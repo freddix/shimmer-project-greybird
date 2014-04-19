@@ -1,12 +1,12 @@
 Summary:	Greybird theme
 Name:		shimmer-project-greybird
-Version:	1.2.3
-Release:	2
+Version:	1.3.4
+Release:	1
 License:	GPL v2 and Attribution-ShareAlike 3.0 Unported
 Group:		X11/Themes
 #Source0:	https://github.com/shimmerproject/Greybird/archive/v%{version}.tar.gz
 Source0:	https://github.com/shimmerproject/Greybird/archive/master.zip
-# Source0-md5:	7032eb93e03225133c1986f7086c9882
+# Source0-md5:	4179fbaaf07892a19c3169835ac2429c
 BuildRequires:	automake
 URL:		http://shimmerproject.org/project/greybird/
 BuildArch:	noarch
