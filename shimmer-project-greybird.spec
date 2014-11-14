@@ -1,7 +1,7 @@
 Summary:	Greybird theme
 Name:		shimmer-project-greybird
 Version:	1.4
-Release:	2
+Release:	3
 License:	GPL v2 and Attribution-ShareAlike 3.0 Unported
 Group:		X11/Themes
 #Source0:	https://github.com/shimmerproject/Greybird/archive/v%{version}.tar.gz
